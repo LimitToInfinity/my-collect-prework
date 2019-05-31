@@ -8,7 +8,7 @@ def my_collect(array)
   new_array
 end  
 
-array = []
+array = ["ruby", "javascript", "python"]
 my_collect(array) do |name|
   name.upcase
 end
